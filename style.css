@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: auto 0;
+}
+.section1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+    background: linear-gradient(340deg ,white, rgba(128, 128, 128, 0.63));
+    padding-bottom: 120px;
+    word-wrap: break-word;
+}
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.section3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.section4{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.253);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+.section5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .section2{
+        flex-wrap: wrap;
+    }
+    .section3{
+        flex-wrap: wrap;
+    }
+    .section4{
+        flex-wrap: wrap;
+    }
+    .section5{
+        flex-wrap: wrap;
+    }
+    .section6{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .spring-summer{
+        font-size: 13vw !important;
+        margin-right: 66px;
+    }
+    .section2{
+        flex-wrap: wrap;
+    }
+    .section3{
+        flex-wrap: wrap;
+    }
+    .section4{
+        flex-wrap: wrap;
+    }
+    .section5{
+        flex-wrap: wrap;
+    }
+    .section6{
+        flex-wrap: wrap;
+    }
+    img{
+        width: 90%;
+        margin-left: 2px;
+    }
+    p{
+        width: 89%;
+        margin-left: 5px;
+    }
+    h3{
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 12px;
+    }
+    .section2{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .section3{
+        flex-wrap: wrap;
+    }
+    .section4{
+        flex-wrap: wrap;
+    }
+    .section5{
+        flex-wrap: wrap;
+    }
+    .section6{
+        flex-wrap: wrap;
+    }
+    img{
+        width: 100%;
+        margin-left: 2px;
+    }
+    .img-five{
+        position: relative;
+        bottom: 244px;
+    }
+    p{
+        width: 80%;
+        margin-left: 5px;
+    }
+    .spring-summer{
+        font-size: 13vw !important;
+        margin-right: 99px !important;
+    }
+    .section6{
+        margin-left: 12px;
+    }
+    h3{
+        margin-left: 5px;
+    }
+} 
+
